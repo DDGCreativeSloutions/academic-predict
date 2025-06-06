@@ -20,7 +20,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename="/AcademiPredict">
+      <BrowserRouter basename="/academic-predict">
         <Navbar />
         <Routes>
           <Route path="/" element={<Index />} />
